@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import {MdAlternateEmail,MdKey} from 'react-icons/md'
 import './Login_modules.css';
 const Login=()=>{
   return(
@@ -11,7 +12,19 @@ const Login=()=>{
                 <NavLink >Cadastrar-se</NavLink>
           </div>
           <div className="container-right">
-            <h2>Ola mundo</h2>
+            <h2>Olá e boas vendas!</h2>
+            <div className="input">
+              <span>
+                <MdAlternateEmail />
+              <input type="email" name="email-login" id="email" placeholder='Digite seu email' />
+              </span>
+              <span>
+                <MdKey />
+              <input type="password" name="password-login" id="password" placeholder="Digite sua" />
+              </span>
+
+            </div>
+            <button>Login</button>
           </div>
         </div>
     </div>

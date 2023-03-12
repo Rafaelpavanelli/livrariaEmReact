@@ -1,4 +1,5 @@
 @import '../../styles/dados.scss';
+
 *{
   margin: 0px;
 }
@@ -52,7 +53,55 @@
       height: 80vh;
       width: 60vw;
       border-radius:0px 2%  2% 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      flex-direction: column;
+      h2{
+        margin-top: 20vh;
+        margin-bottom: 7vh;
+        font-family: $titulos;
+      }
+      .input{
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10vh;
+     span{
+      margin:5vh 0px 0px 2vh;
+      svg{
+        transform: translate(30px,4px);
+        color: rgb(62, 62, 62);
+        
+      }
+      input{
+        border-radius: 10px;
+        border: 1px solid gray;
+        padding: 7px 50px;
+        font-family: $titulos;
+      }
+     }
+    }
+      button{
+        cursor: pointer;
+        background-color: $minimum-color;
+        color: white;
+        border-radius: 5vh;
+        width: 8vw;
+        font-weight: 500;
+        transition: 0.5s  ease-in-out;
+        border: 0.5px solid white;
+        margin-bottom: 20vh;
+        padding: 2vh;
+        &:hover{
+          background-color: white;
+          color: black;
+        }
+      }
+      }
     }
   }
   
-};

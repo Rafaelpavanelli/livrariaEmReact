@@ -60,4 +60,50 @@
   height: 80vh;
   width: 60vw;
   border-radius: 0px 2% 2% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Login .container .container-right h2 {
+  margin-top: 20vh;
+  margin-bottom: 7vh;
+  font-family: "Arboria-Light";
+}
+.Login .container .container-right .input {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
+.Login .container .container-right .input span {
+  margin: 5vh 0px 0px 2vh;
+}
+.Login .container .container-right .input span svg {
+  transform: translate(30px, 4px);
+  color: rgb(62, 62, 62);
+}
+.Login .container .container-right .input span input {
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 7px 50px;
+  font-family: "Arboria-Light";
+}
+.Login .container .container-right button {
+  cursor: pointer;
+  background-color: #730202;
+  color: white;
+  border-radius: 5vh;
+  width: 8vw;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+  border: 0.5px solid white;
+  margin-bottom: 20vh;
+  padding: 2vh;
+}
+.Login .container .container-right button:hover {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=Login_modules.css.map */
