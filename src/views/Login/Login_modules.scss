@@ -1,0 +1,58 @@
+@import '../../styles/dados.scss';
+*{
+  margin: 0px;
+}
+.Login{
+  @include Container;
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 10vw;
+    .container-left{
+      background-color: $secundary-color;
+      height: 80vh;
+      width: 30vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items:center;
+      border-radius:2% 0px 0px 2%;
+      h2{
+        font-size: 40px;
+        font-family: $titulos;
+        color: white;
+        font-weight: 400;
+      }
+      p{
+        font-family: $titulos;
+        color: white;
+        font-size: 32px;
+        text-align: center;
+        padding: 10vh;
+        width: 90%;
+        font-weight: 100;
+      }
+      a{
+        padding: 2vh;
+        background-color: $minimum-color;
+        color: white;
+        text-decoration: none;
+        border-radius: 10vh;
+        font-weight: 500;
+        transition: 0.5s  ease-in-out;
+        &:hover{
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+    .container-right{
+      background-color: #fffcfc8a;
+      height: 80vh;
+      width: 60vw;
+      border-radius:0px 2%  2% 0px;
+    }
+  }
+  
+};

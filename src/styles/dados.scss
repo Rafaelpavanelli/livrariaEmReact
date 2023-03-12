@@ -1,0 +1,28 @@
+@font-face {font-family: "Arboria-Light"; 
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
+   src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), 
+   url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), 
+   url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), 
+   url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg"); }
+
+$background-color:#F2C849;
+$secundary-color:#A55C03;
+$minimum-color:#730202;
+
+$titulos:"Arboria-Light";
+
+@mixin Container(){
+ 
+ 
+  background: $background-color;
+  min-height: 100vh;
+}
+@mixin Button($cor,$hover){
+  border: 40%;
+  background-color: $cor;
+  border: hidden;
+  &:hover{
+    background-color: $hover;
+  }
+}

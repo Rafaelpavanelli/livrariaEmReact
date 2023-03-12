@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Arboria-Light";
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg");
+}
+* {
+  margin: 0px;
+}
+
+.Login {
+  background: #F2C849;
+  min-height: 100vh;
+}
+.Login .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vw;
+}
+.Login .container .container-left {
+  background-color: #A55C03;
+  height: 80vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2% 0px 0px 2%;
+}
+.Login .container .container-left h2 {
+  font-size: 40px;
+  font-family: "Arboria-Light";
+  color: white;
+  font-weight: 400;
+}
+.Login .container .container-left p {
+  font-family: "Arboria-Light";
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  padding: 10vh;
+  width: 90%;
+  font-weight: 100;
+}
+.Login .container .container-left a {
+  padding: 2vh;
+  background-color: #730202;
+  color: white;
+  text-decoration: none;
+  border-radius: 10vh;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+}
+.Login .container .container-left a:hover {
+  background-color: white;
+  color: black;
+}
+.Login .container .container-right {
+  background-color: rgba(255, 252, 252, 0.5411764706);
+  height: 80vh;
+  width: 60vw;
+  border-radius: 0px 2% 2% 0px;
+}/*# sourceMappingURL=Login_modules.css.map */
