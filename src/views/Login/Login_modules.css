@@ -9,7 +9,7 @@
 
 .Login {
   background: #F2C849;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 .Login .container {
   display: flex;

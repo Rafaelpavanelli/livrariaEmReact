@@ -6,6 +6,7 @@
 .cadastrar {
   background: #F2C849;
   min-height: 100vh;
+  max-height: 100vh;
 }
 .cadastrar .container {
   display: flex;

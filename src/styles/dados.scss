@@ -14,7 +14,8 @@ $titulos:"Arboria-Light";
 
 @mixin Container(){
   background: $background-color;
-  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 60vh;
 }
 @mixin Container-Left(){
   background-color: $secundary-color;

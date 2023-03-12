@@ -1,0 +1,97 @@
+@import '../../styles/dados.scss';
+.cadastrar-usuario{
+  @include Container;
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 10vw;
+    .container-left{
+      @include Container-Left;
+      width: 20vw;
+      h2{
+        font-family: $titulos;
+        width: 40%;
+        text-align: center;
+        font-size: 1.5em;
+      }
+    }
+    .container-right{
+      @include Container-Right;
+      justify-content: center;
+      .input{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10vh;
+        width: 40vw;
+        
+        label{
+          margin: 10px 0px;
+          input{
+            padding: 1vh;
+            border-radius: 5px;
+            border: 1px solid gray;
+          }
+          select{
+            height: 5vh;
+            margin: 3vh 1vw 0px 0px;
+            width: 10vw;
+            text-align: center;
+            border-radius: 20px;
+            font-size: 1.1em;
+          }
+          #cpf,#cnpj{
+            font-size: 1.1em;
+            width: 20vw;
+          }
+          #name,#endress{
+            width: 40vw;
+          }
+         input[type="date"]{
+          width: 20vw;
+          font-size: 1.2em;
+          text-align: center;
+         }
+         #ddd{
+          width: 5vw;
+          margin-right: 20px;
+          height: 3vh;
+         }
+         #telefone{
+          width: 20vw;
+          height: 3vh;
+         }
+        }
+      }
+     .button{
+      display: flex;
+      margin-top: 20px;
+      justify-content: space-between;
+      width: 20vw;
+      button{
+        cursor: pointer;
+        padding: 2vh;
+        border-radius: 20px;
+        background: $minimum-color;
+        color: white;
+        border: none;
+        &:nth-child(1):hover{
+          transition: 0.5s ease-in-out;
+          background: white;
+          color: black;
+        }
+        &:nth-child(2){
+          transition: 0.5s ease-in-out;
+          background: red;
+          color: white;
+          &:hover{
+            transition: 0.5s ease-in-out;
+            background: rgb(255, 62, 62);
+          }
+        }
+      
+      }
+     }
+    }
+  }
+}

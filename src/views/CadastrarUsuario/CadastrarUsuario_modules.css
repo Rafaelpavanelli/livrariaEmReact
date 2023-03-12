@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Arboria-Light";
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg");
+}
+.cadastrar-usuario {
+  background: #F2C849;
+  max-height: 100vh;
+  min-width: 60vh;
+}
+.cadastrar-usuario .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vw;
+}
+.cadastrar-usuario .container .container-left {
+  background-color: #A55C03;
+  height: 80vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2% 0px 0px 2%;
+  font-family: "Arboria-Light";
+  color: white;
+  font-weight: 300;
+  width: 20vw;
+}
+.cadastrar-usuario .container .container-left h2 {
+  font-family: "Arboria-Light";
+  width: 40%;
+  text-align: center;
+  font-size: 1.5em;
+}
+.cadastrar-usuario .container .container-right {
+  background-color: rgba(255, 252, 252, 0.5411764706);
+  height: 80vh;
+  width: 60vw;
+  border-radius: 0px 2% 2% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+}
+.cadastrar-usuario .container .container-right .input {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10vh;
+  width: 40vw;
+}
+.cadastrar-usuario .container .container-right .input label {
+  margin: 10px 0px;
+}
+.cadastrar-usuario .container .container-right .input label input {
+  padding: 1vh;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.cadastrar-usuario .container .container-right .input label select {
+  height: 5vh;
+  margin: 3vh 1vw 0px 0px;
+  width: 10vw;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 1.1em;
+}
+.cadastrar-usuario .container .container-right .input label #cpf, .cadastrar-usuario .container .container-right .input label #cnpj {
+  font-size: 1.1em;
+  width: 20vw;
+}
+.cadastrar-usuario .container .container-right .input label #name, .cadastrar-usuario .container .container-right .input label #endress {
+  width: 40vw;
+}
+.cadastrar-usuario .container .container-right .input label input[type=date] {
+  width: 20vw;
+  font-size: 1.2em;
+  text-align: center;
+}
+.cadastrar-usuario .container .container-right .input label #ddd {
+  width: 5vw;
+  margin-right: 20px;
+  height: 3vh;
+}
+.cadastrar-usuario .container .container-right .input label #telefone {
+  width: 20vw;
+  height: 3vh;
+}
+.cadastrar-usuario .container .container-right .button {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 20vw;
+}
+.cadastrar-usuario .container .container-right .button button {
+  cursor: pointer;
+  padding: 2vh;
+  border-radius: 20px;
+  background: #730202;
+  color: white;
+  border: none;
+}
+.cadastrar-usuario .container .container-right .button button:nth-child(1):hover {
+  transition: 0.5s ease-in-out;
+  background: white;
+  color: black;
+}
+.cadastrar-usuario .container .container-right .button button:nth-child(2) {
+  transition: 0.5s ease-in-out;
+  background: red;
+  color: white;
+}
+.cadastrar-usuario .container .container-right .button button:nth-child(2):hover {
+  transition: 0.5s ease-in-out;
+  background: rgb(255, 62, 62);
+}/*# sourceMappingURL=CadastrarUsuario_modules.css.map */
