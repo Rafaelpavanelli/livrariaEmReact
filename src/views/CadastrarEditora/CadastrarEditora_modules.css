@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Arboria-Light";
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg");
+}
+.Cadastrar-Editora {
+  background: #F2C849;
+  max-height: 100vh;
+  min-width: 60vh;
+}
+.Cadastrar-Editora .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vw;
+}
+.Cadastrar-Editora .container .container-left {
+  background-color: #A55C03;
+  height: 80vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2% 0px 0px 2%;
+  font-family: "Arboria-Light";
+  color: white;
+  font-weight: 300;
+  width: 20vw;
+}
+.Cadastrar-Editora .container .container-left h2 {
+  width: 30%;
+  text-align: center;
+  font-family: "Arboria-Light";
+}
+.Cadastrar-Editora .container .container-right {
+  background-color: rgba(255, 252, 252, 0.5411764706);
+  height: 80vh;
+  width: 60vw;
+  border-radius: 0px 2% 2% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+}
+.Cadastrar-Editora .container .container-right .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+  height: 40vh;
+}
+.Cadastrar-Editora .container .container-right .inputs input {
+  height: 4vh;
+  font-family: "Arboria-Light";
+}
+.Cadastrar-Editora .container .container-right .inputs #name {
+  width: 24vw;
+  margin-right: 30px;
+}
+.Cadastrar-Editora .container .container-right .inputs #andress {
+  width: 35vw;
+}
+.Cadastrar-Editora .container .container-right .inputs #phone {
+  width: 15vw;
+  margin-right: 8.5vw;
+}
+.Cadastrar-Editora .container .container-right .inputs #manager {
+  width: 11vw;
+}
+.Cadastrar-Editora .container .container-right .button button {
+  cursor: pointer;
+  padding: 2vh;
+  margin: 0px 20px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+.Cadastrar-Editora .container .container-right .button button:nth-child(1) {
+  background: #730202;
+  color: white;
+}
+.Cadastrar-Editora .container .container-right .button button:nth-child(1):hover {
+  transition: 0.3s ease-in-out;
+  background: white;
+  color: black;
+}
+.Cadastrar-Editora .container .container-right .button button:nth-child(2) {
+  background: red;
+  color: white;
+}
+.Cadastrar-Editora .container .container-right .button button:nth-child(2):hover {
+  transition: 0.3s ease-in-out;
+  background-color: rgb(157, 0, 0);
+  color: white;
+}/*# sourceMappingURL=CadastrarEditora_modules.css.map */

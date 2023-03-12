@@ -1,0 +1,75 @@
+@import '../../styles/dados.scss';
+.Cadastrar-Editora{
+  @include Container;
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 10vw;
+    .container-left{
+      @include Container-Left;
+      width: 20vw;
+      h2{
+        width: 30%;
+        text-align: center;
+        font-family: $titulos;
+      }
+    }
+    .container-right{
+      @include Container-Right;
+      justify-content: center;
+      .inputs{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40vw;
+        height: 40vh;
+        input{
+          height: 4vh;
+          font-family: $titulos;
+        }
+        #name{
+          width: 24vw;
+          margin-right: 30px;
+        }
+        #andress{
+          width: 35vw;
+        }
+        #phone{
+          width: 15vw;
+          margin-right: 8.5vw;
+        }
+        #manager{
+          width: 11vw;
+        }
+      }
+      .button{
+        button{
+          cursor: pointer;
+          padding: 2vh;
+          margin: 0px 20px;
+          border-radius: 20px;
+          border: 1px solid gray;
+          &:nth-child(1){
+            background: $minimum-color;
+            color: white;
+            &:hover{
+              transition: 0.3s ease-in-out;
+              background: white;
+              color: black;
+            }
+          }
+          &:nth-child(2){
+            background: red;
+            color: white;
+            &:hover{
+              transition: 0.3s ease-in-out;
+              background-color: rgb(157, 0, 0);
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

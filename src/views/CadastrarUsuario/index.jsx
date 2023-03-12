@@ -3,7 +3,6 @@ import { useState } from 'react';
 import Navbar from '../../components/navbar';
 const CadastrarUsuario=()=>{
   const [dados,setDados]=useState(1);
-
 return(
   <>
     <Navbar />
@@ -30,7 +29,7 @@ return(
         </label>
         <label>
           <p>Dados</p>
-          {dados==1?<input type="text" id='cpf' name="cpf" placeholder='Digite o CPF' maxlength="11"/>:<input type="text" name="cnpj" id='cnpj' placeholder='Digite o CNPJ' maxlength="14"/>}
+          {dados===1?<input type="text" id='cpf' name="cpf" placeholder='Digite o CPF' maxlength="11"/>:<input type="text" name="cnpj" id='cnpj' placeholder='Digite o CNPJ' maxlength="14"/>}
         </label>
         <label>
           <p>Data de nascimento</p>
