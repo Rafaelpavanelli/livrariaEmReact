@@ -3,15 +3,15 @@ import {MdAlternateEmail,MdKey} from 'react-icons/md'
 import './Login_modules.css';
 const Login=()=>{
   return(
-    <div className="Login">
-        <div className="container">
-          <div className="container-left">
+    <div className="Login" >
+        <div className="container" >
+          <div className="container-left" >
             <h2>Olá vendedor!</h2>
             <p>Ainda não está cadastrado? 
                 Cadastre-se aqui agora</p>
-                <NavLink >Cadastrar-se</NavLink>
+                <NavLink to={'/CadastrarVendedor'} >Cadastrar-se</NavLink>
           </div>
-          <div className="container-right">
+          <div className="container-right" >
             <h2>Olá e boas vendas!</h2>
             <div className="input">
               <span>

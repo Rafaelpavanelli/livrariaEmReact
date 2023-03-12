@@ -3,21 +3,17 @@
   src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
   src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg");
 }
-* {
-  margin: 0px;
-}
-
-.Login {
+.cadastrar {
   background: #F2C849;
   min-height: 100vh;
 }
-.Login .container {
+.cadastrar .container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10vh 10vw;
 }
-.Login .container .container-left {
+.cadastrar .container .container-left {
   background-color: #A55C03;
   height: 80vh;
   width: 30vw;
@@ -26,23 +22,18 @@
   flex-direction: column;
   align-items: center;
   border-radius: 2% 0px 0px 2%;
-}
-.Login .container .container-left h2 {
-  font-size: 40px;
   font-family: "Arboria-Light";
   color: white;
-  font-weight: 400;
+  font-weight: 300;
 }
-.Login .container .container-left p {
-  font-family: "Arboria-Light";
-  color: white;
-  font-size: 32px;
+.cadastrar .container .container-left h3 {
+  padding: 7vh 0px;
+  font-size: 1.3em;
+  width: 50%;
   text-align: center;
-  padding: 10vh;
-  width: 90%;
-  font-weight: 100;
 }
-.Login .container .container-left a {
+.cadastrar .container .container-left a {
+  margin-top: 22vh;
   padding: 2vh;
   background-color: #730202;
   color: white;
@@ -51,11 +42,11 @@
   font-weight: 500;
   transition: 0.5s ease-in-out;
 }
-.Login .container .container-left a:hover {
+.cadastrar .container .container-left a:hover {
   background-color: white;
   color: black;
 }
-.Login .container .container-right {
+.cadastrar .container .container-right {
   background-color: rgba(255, 252, 252, 0.5411764706);
   height: 80vh;
   width: 60vw;
@@ -64,49 +55,39 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  justify-content: center;
 }
-.Login .container .container-right h2 {
-  margin-top: 20vh;
-  margin-bottom: 7vh;
-  font-family: "Arboria-Light";
-  font-size: 3em;
-}
-.Login .container .container-right .input {
-  width: 50vw;
+.cadastrar .container .container-right .input {
+  padding: 6vh 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 10vh;
 }
-.Login .container .container-right .input span {
-  margin: 5vh 0px 0px 2vh;
+.cadastrar .container .container-right .input span {
+  margin: 1vh 0px;
 }
-.Login .container .container-right .input span svg {
-  transform: translate(35px, 4px);
-  color: rgb(62, 62, 62);
-  font-size: 1.4em;
+.cadastrar .container .container-right .input span svg {
+  transform: translate(30px, 5px);
 }
-.Login .container .container-right .input span input {
+.cadastrar .container .container-right .input span input {
+  text-align: center;
+  width: 25vw;
+  padding: 2vh;
   border-radius: 10px;
   border: 1px solid gray;
-  padding: 10px 70px;
-  font-family: "Arboria-Light";
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
-.Login .container .container-right button {
-  cursor: pointer;
+.cadastrar .container .container-right button {
   background-color: #730202;
-  color: white;
-  border-radius: 5vh;
-  width: 8vw;
-  font-weight: 500;
-  transition: 0.5s ease-in-out;
-  border: 0.5px solid white;
-  margin-bottom: 20vh;
   padding: 2vh;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
 }
-.Login .container .container-right button:hover {
+.cadastrar .container .container-right button:hover {
+  transition: 0.3s ease-in-out;
   background-color: white;
   color: black;
-}/*# sourceMappingURL=Login_modules.css.map */
+}/*# sourceMappingURL=CadastrarVendedor_modules.css.map */

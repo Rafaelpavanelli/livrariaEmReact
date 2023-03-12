@@ -1,0 +1,65 @@
+@import '../../styles/dados.scss';
+.cadastrar{
+  @include Container;
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 10vw;
+    .container-left{
+      @include Container-Left;
+      
+      h3{
+       padding: 7vh 0px;
+       font-size: 1.3em;
+       width: 50%;
+       text-align: center;
+       
+      }
+      a{
+        margin-top: 22vh;
+        @include Link($minimum-color,white,black);
+
+      }
+    }
+    .container-right{
+      @include Container-Right;
+      justify-content: center;
+      .input{
+        padding: 6vh 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        span{
+          margin: 1vh 0px;
+          svg{
+            transform: translate(30px,5px);
+          }
+          input{
+            text-align: center;
+            width: 25vw;
+            padding: 2vh;
+            border-radius: 10px;
+            border: 1px solid gray;
+            font-size: 1.1em;
+          }
+        }
+       
+      }
+      button{
+        background-color: $minimum-color;
+        padding: 2vh;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+          transition: 0.3s ease-in-out;
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }
+}

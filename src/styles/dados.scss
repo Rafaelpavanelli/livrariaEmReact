@@ -13,16 +13,43 @@ $minimum-color:#730202;
 $titulos:"Arboria-Light";
 
 @mixin Container(){
- 
- 
   background: $background-color;
   min-height: 100vh;
 }
-@mixin Button($cor,$hover){
-  border: 40%;
-  background-color: $cor;
-  border: hidden;
-  &:hover{
-    background-color: $hover;
-  }
+@mixin Container-Left(){
+  background-color: $secundary-color;
+  height: 80vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius:2% 0px 0px 2%;
+  font-family: $titulos;
+  color: white;
+  font-weight: 300;
+  
+}
+@mixin Container-Right(){
+  background-color: #fffcfc8a;
+  height: 80vh;
+  width: 60vw;
+  border-radius:0px 2%  2% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+@mixin Link($cor,$hover,$color){
+        padding: 2vh;
+        background-color: $cor;
+        color: white;
+        text-decoration: none;
+        border-radius: 10vh;
+        font-weight: 500;
+        transition: 0.5s  ease-in-out;
+        &:hover{
+          background-color: $hover;
+          color: $color;
+        }
 }
