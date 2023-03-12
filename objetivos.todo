@@ -1,0 +1,22 @@
+Objetivos para Front-end:
+  ☐ Desenvolver as variaveis de cor e de fonte
+  ☐ Desenvolver o design padrão das paginas
+  ☐ Iniciar o React
+  ☐ Criar o Routers
+  ☐ Desenvolver as rotas
+  ☐ Organizar as pastas
+  ☐ Começar pela tela de Login de vendedor
+  ☐ Começar a tela de Cadastro de vendedor
+  ☐ começar a tela de cadastro de usuario
+  ☐ Realizar uma reunião com os integranter para feedback
+  ☐ Rever e verificar como está
+
+  Objetivos para o back-end:
+    ☐ Reunião para estabelecer quais serão as tabelas
+    ☐ Realizar o modelo logico do banco de dados
+    ☐ Criar o modelo fisico
+    ☐ popular o modelo fisico usando uma funçaõ do excel
+    ☐ criar as views
+    ☐ criar as funções
+    ☐ criar as procedures
+    ☐ Passar o BD para o front-end
