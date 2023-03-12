@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Arboria-Light";
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg");
+}
+.navbar {
+  position: fixed;
+  right: 0px;
+}
+.navbar button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-right: 5vw;
+  transform: translateX(30px);
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  right: 0px;
+}
+.navbar .navbar-closed {
+  display: none;
+  transition: 1s ease-in-out;
+}
+.navbar .navbar-open {
+  transition: 1s ease-in-out;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  height: 100vh;
+  background-color: #A55C03;
+  align-items: center;
+}
+.navbar .navbar-open li {
+  padding: 20px 0px;
+  font-size: 1.2rem;
+  list-style: none;
+}
+.navbar .navbar-open li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .navbar-open li a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=navbar_modules.css.map */

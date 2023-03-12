@@ -1,0 +1,44 @@
+@import './../../styles/dados.scss';
+.navbar{
+  position: fixed;
+  right: 0px;
+  button{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-right: 5vw;
+    transform: translateX(30px);
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    right: 0px;
+  }
+  .navbar-closed{
+    display: none;
+    transition: 1s ease-in-out;
+  }
+  .navbar-open{
+    transition: 1s ease-in-out;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height: 100vh;
+    background-color: $secundary-color;
+    align-items: center;
+      li{
+        padding: 20px 0px;
+        font-size: 1.2rem;
+        list-style: none;
+        a{
+          text-decoration: none;
+          color: white;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    
+  }
+}

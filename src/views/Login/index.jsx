@@ -3,6 +3,8 @@ import {MdAlternateEmail,MdKey} from 'react-icons/md'
 import './Login_modules.css';
 const Login=()=>{
   return(
+    <>
+    
     <div className="Login" >
         <div className="container" >
           <div className="container-left" >
@@ -28,6 +30,7 @@ const Login=()=>{
           </div>
         </div>
     </div>
+    </>
   )
 }
 export default Login;

@@ -1,8 +1,12 @@
 import './CadastrarUsuario_modules.css';
 import { useState } from 'react';
+import Navbar from '../../components/navbar';
 const CadastrarUsuario=()=>{
   const [dados,setDados]=useState(1);
+
 return(
+  <>
+    <Navbar />
   <div className="cadastrar-usuario">
     <div className="container">
       <div className="container-left">
@@ -45,6 +49,7 @@ return(
       </div>
     </div>
   </div>
+  </>
 )
 };
 export default CadastrarUsuario;
