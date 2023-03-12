@@ -10,7 +10,7 @@ $background-color:#F2C849;
 $secundary-color:#A55C03;
 $minimum-color:#730202;
 
-$titulos:"Arboria-Light";
+$titulos:"Arboria-Light","arial";
 
 @mixin Container(){
   background: $background-color;
@@ -40,6 +40,7 @@ $titulos:"Arboria-Light";
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+ 
 }
 @mixin Link($cor,$hover,$color){
         padding: 2vh;

@@ -1,0 +1,70 @@
+@import '../../styles/dados.scss';
+.Livros{
+  @include Container;
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 10vw;
+    .container-left{
+      @include Container-Left;
+      width: 20vw;
+      h3{
+        font-size: 2rem;
+      }
+    }
+    .container-right{
+      @include Container-Right;
+      align-items: center;
+      justify-content: center;
+      .span{
+        input{
+          width: 50vw;
+          height: 5vh;
+          padding: 0px 20px;
+         }
+         svg{
+          cursor: pointer;
+          font-size: 2rem;
+          transform: translate(10px,10px);
+         }
+      }
+    
+      ul{
+        width: 57.6vw;
+        transform: translate(-10px,20px);
+        overflow:auto;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        li{
+          display: flex;
+          width: 55vw;
+          justify-content: space-between;
+          background-color: white;
+          margin: 0.5vh -1vw;
+          padding: 1vh 1vw;
+          span:nth-child(1){
+            display: flex;
+            justify-content: space-between;
+            width: 25vw;
+            text-align: center;
+          }
+          span:nth-child(2){
+            a:nth-child(1){
+              color: green;
+            }
+            a:nth-child(2){
+              color: rgb(255, 60, 0);
+            }
+            a{
+              margin: 0px 1vw;
+              font-size: 1.2em;
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Arboria-Light";
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg");
+}
+.Cadastrar-Livro {
+  background: #F2C849;
+  max-height: 100vh;
+  min-width: 60vh;
+}
+.Cadastrar-Livro .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vw;
+}
+.Cadastrar-Livro .container .container-left {
+  background-color: #A55C03;
+  height: 80vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2% 0px 0px 2%;
+  font-family: "Arboria-Light", "arial";
+  color: white;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+}
+.Cadastrar-Livro .container .container-left h3 {
+  font-family: "Arboria-Light", "arial";
+  text-align: center;
+  font-size: 2em;
+}
+.Cadastrar-Livro .container .container-right {
+  background-color: rgba(255, 252, 252, 0.5411764706);
+  height: 80vh;
+  width: 60vw;
+  border-radius: 0px 2% 2% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+}
+.Cadastrar-Livro .container .container-right .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+  margin-bottom: 15vh;
+}
+.Cadastrar-Livro .container .container-right .inputs p {
+  font-size: 1.2rem;
+  font-family: "Arboria-Light", "arial";
+}
+.Cadastrar-Livro .container .container-right .inputs input {
+  height: 4vh;
+  font-family: "Arboria-Light", "arial";
+}
+.Cadastrar-Livro .container .container-right .inputs #title {
+  width: 39.8vw;
+}
+.Cadastrar-Livro .container .container-right .inputs #editora {
+  width: 25vw;
+  margin-right: 3vw;
+}
+.Cadastrar-Livro .container .container-right .inputs #writer {
+  width: 11vw;
+}
+.Cadastrar-Livro .container .container-right .inputs #isbn {
+  width: 12vw;
+}
+.Cadastrar-Livro .container .container-right .inputs select {
+  width: 10vw;
+  height: 4.5vh;
+  transform: translateY(24px);
+  margin: 0px 3vw;
+}
+.Cadastrar-Livro .container .container-right .inputs #stock {
+  width: 11vw;
+}
+.Cadastrar-Livro .container .container-right .buttons {
+  display: flex;
+  align-items: center;
+}
+.Cadastrar-Livro .container .container-right .buttons button {
+  padding: 2vh;
+  border-radius: 20px;
+  border: 1px solid gray;
+  margin: 0px 2vw;
+  font-family: "Arboria-Light", "arial";
+}
+.Cadastrar-Livro .container .container-right .buttons button:nth-child(1) {
+  background: #730202;
+  color: white;
+}
+.Cadastrar-Livro .container .container-right .buttons button:nth-child(1):hover {
+  transition: 0.5s ease-in-out;
+  background-color: white;
+  color: black;
+}
+.Cadastrar-Livro .container .container-right .buttons button:nth-child(2) {
+  background: red;
+  color: white;
+}
+.Cadastrar-Livro .container .container-right .buttons button:nth-child(2):hover {
+  transition: 0.5s ease-in-out;
+  background: rgb(171, 0, 0);
+}/*# sourceMappingURL=CadastrarLivro_modules.css.map */

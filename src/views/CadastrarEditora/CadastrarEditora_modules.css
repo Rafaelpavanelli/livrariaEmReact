@@ -23,7 +23,7 @@
   flex-direction: column;
   align-items: center;
   border-radius: 2% 0px 0px 2%;
-  font-family: "Arboria-Light";
+  font-family: "Arboria-Light", "arial";
   color: white;
   font-weight: 300;
   width: 20vw;
@@ -31,7 +31,7 @@
 .Cadastrar-Editora .container .container-left h2 {
   width: 30%;
   text-align: center;
-  font-family: "Arboria-Light";
+  font-family: "Arboria-Light", "arial";
 }
 .Cadastrar-Editora .container .container-right {
   background-color: rgba(255, 252, 252, 0.5411764706);
@@ -52,7 +52,7 @@
 }
 .Cadastrar-Editora .container .container-right .inputs input {
   height: 4vh;
-  font-family: "Arboria-Light";
+  font-family: "Arboria-Light", "arial";
 }
 .Cadastrar-Editora .container .container-right .inputs #name {
   width: 24vw;
