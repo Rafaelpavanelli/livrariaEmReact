@@ -5,6 +5,7 @@ import CadastrarUsuario from "./views/CadastrarUsuario";
 import CadastrarEditora from './views/CadastrarEditora';
 import CadastrarLivro from "./views/CadastrarLivro";
 import MostrarLivros from "./views/MostrarLivros";
+import LivroDescricao from "./views/LivroInfo";
 
 const route=()=>{
   return(
@@ -17,6 +18,7 @@ const route=()=>{
     <Route path='/CadastrarEditora' element={<CadastrarEditora/>} />
     <Route path='/CadastrarLivro' element={<CadastrarLivro/>} />
     <Route path='/Livros' element={<MostrarLivros/>} />
+    <Route path='/LivrosDescricao' element={<LivroDescricao/>} />
     
    </Routes>
    </BrowserRouter>

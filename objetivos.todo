@@ -13,6 +13,8 @@ Objetivos para Front-end:
   ✔ Começar tela de Cadastrar Livro @done(23-03-12 14:04)
   ✔ Criar um database ficticio em JSON @done(23-03-12 15:54)
   ✔ Criar tela de buscar Livro @done(23-03-12 15:54)
+  ✔ Criar um validador par o Login @done(23-03-12 17:34)
+  ☐ Consertar a responsividade do scroll na tela de Livros
   ☐ Criar a tela de menu em figma
   ☐ Realizar uma reunião com os integranter para feedback
   ☐ Rever e verificar como está

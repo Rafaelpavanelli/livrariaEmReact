@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar";
 import Data from '../../data.json';
 import {BsCartCheckFill,BsInfoCircleFill} from 'react-icons/bs';
 import {BiSearchAlt} from 'react-icons/bi';
-import { NavLink } from "react-router-dom";
+import { NavLink,Navigate} from "react-router-dom";
 const MostrarLivros=()=>{
   const Livros=Data.Livros;
   
@@ -25,7 +25,7 @@ const MostrarLivros=()=>{
             Livros.map(livro =>{
              return(
               <>
-              <li> <span><p>{livro.Titulo}</p><p>({livro.Autor})</p> </span><span><NavLink><BsCartCheckFill /></NavLink><NavLink ><BsInfoCircleFill /></NavLink></span></li>
+            <li key={livro.id}><span><p >{livro.Titulo}</p><p>({livro.Autor})</p> </span><span><NavLink><BsCartCheckFill /></NavLink><NavLink to={"/LivrosDescricao"} state={{Info:livro}} ><BsInfoCircleFill /></NavLink></span></li>
               </>
              )
             })

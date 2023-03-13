@@ -1,0 +1,9 @@
+{
+  "Users":[{
+    "Email":"Rafael@teste.com",
+    "Senha":"Rafael"
+  },{
+    "Email":"Ayla@teste.com",
+    "Senha":"Ayla"
+  }]
+}
