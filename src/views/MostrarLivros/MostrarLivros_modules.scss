@@ -37,6 +37,9 @@
         height: 60vh;
         display: flex;
         flex-direction: column;
+        &::-webkit-scrollbar {
+          display: none;
+        }
         li{
           display: flex;
           width: 55vw;

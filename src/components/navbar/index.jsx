@@ -1,8 +1,9 @@
 import { useState } from "react";
 import {AiOutlineClose} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi';
+import { NavLink } from "react-router-dom";
 import './navbar_modules.css';
-const Navbar = (children)=>{
+const Navbar = ()=>{
   const[active,setActive]=useState(true);
   const handleClick=()=>{setActive(!active)}
   return(
@@ -11,9 +12,10 @@ const Navbar = (children)=>{
         {active?<GiHamburgerMenu />:<AiOutlineClose />}
       </button>
       <ul className={!active?"navbar-open":"navbar-closed"}>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Livros</a></li>
-        <li><a href="#">Clientes</a></li>
+        <li><NavLink to={"/Menu"}>Menu</NavLink></li>
+        <li><NavLink to={"/Livros"}>Livros</NavLink></li>
+        <li><NavLink to={"/Livros"}>Clientes</NavLink></li>
+        <li><NavLink to={"/Livros"} style={{"textAlign":"center"}}>Historico<br />de <br/>compras</NavLink></li>
       </ul>
     </div>
   )

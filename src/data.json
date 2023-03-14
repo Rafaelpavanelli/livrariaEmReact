@@ -3,102 +3,136 @@
     "id":1,
     "Titulo":"O alto da compadecida",
     "Autor":"Guilherme del toro",
-    "Editora":"Panini"
+    "Editora":"Panini",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":2,
     "Titulo":"Crepuscolo",
     "Autor":"Vladimir putim",
-    "Editora":"Cras"
+    "Editora":"Cras",
+    "Assunto":"Biologia",
+    "CodigoISBN":"40028922"
   },
   {
     "id":3,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Animação",
+    "CodigoISBN":"40028922"
   },
   {
     "id":4,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":5,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":6,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":7,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":8,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":9,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":10,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":11,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":12,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":13,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":14,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":15,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":16,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   },
   {
     "id":17,
     "Titulo":"Garfield",
     "Autor":"gatnip",
-    "Editora":"gatal"
+    "Editora":"gatal",
+    "Assunto":"Linguas",
+    "CodigoISBN":"40028922"
   }
 ]}

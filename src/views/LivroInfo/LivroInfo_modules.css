@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Arboria-Light";
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg");
+}
+.Livro-Info {
+  background: #F2C849;
+  max-height: 100vh;
+  min-width: 60vh;
+}
+.Livro-Info .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vw;
+}
+.Livro-Info .container .container-left {
+  background-color: #A55C03;
+  height: 80vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2% 0px 0px 2%;
+  font-family: "Arboria-Light", "arial";
+  color: white;
+  font-weight: 300;
+}
+.Livro-Info .container .container-left h1 {
+  font-family: "Arboria-Light", "arial";
+  text-align: center;
+  width: 20vw;
+}
+.Livro-Info .container .container-right {
+  background-color: rgba(255, 252, 252, 0.5411764706);
+  height: 80vh;
+  width: 60vw;
+  border-radius: 0px 2% 2% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+}
+.Livro-Info .container .container-right .livros {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40vw;
+  padding-top: 5vh;
+}
+.Livro-Info .container .container-right .livros span {
+  margin-bottom: 2vw;
+  color: black;
+}
+.Livro-Info .container .container-right .livros span h3 {
+  background-color: white;
+  color: black;
+  padding-left: 1vw;
+  padding-top: 5px;
+  height: 5vh;
+  margin: auto;
+}
+.Livro-Info .container .container-right .livros span:nth-child(1) {
+  width: 20vw;
+}
+.Livro-Info .container .container-right .livros span:nth-child(2) {
+  width: 14vw;
+}
+.Livro-Info .container .container-right .livros span:nth-child(3) {
+  width: 14vw;
+  margin-right: 10vw;
+}
+.Livro-Info .container .container-right .livros span:nth-child(4) {
+  width: 14vw;
+}
+.Livro-Info .container .container-right .livros span:nth-child(5) {
+  width: 14vw;
+  margin-right: 25vw;
+  margin-bottom: 10vh;
+}
+.Livro-Info .container .container-right button {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  margin-bottom: 5vh;
+  align-items: center;
+  border-radius: 10px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.Livro-Info .container .container-right button svg {
+  color: white;
+  background-color: #00DA16;
+  height: 5vh;
+  width: 5vh;
+  padding: 2vh;
+  border-radius: 100px;
+}
+.Livro-Info .container .container-right button svg:hover {
+  transition: 0.4s ease-in-out;
+  background-color: rgb(0, 255, 128);
+}/*# sourceMappingURL=LivroInfo_modules.css.map */

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Arboria-Light";
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot");
+  src: url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.woff") format("woff"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bf7395f715c4c074d2a39e1c273afbaa.svg#Arboria-Light") format("svg");
+}
+.notFound {
+  background: #F2C849;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.notFound a {
+  padding: 1vh;
+  margin: 1vh;
+  background-color: #A55C03;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+.notFound a:hover {
+  transition: 0.5s ease-in-out;
+  text-decoration: underline;
+}/*# sourceMappingURL=notFound_modules.css.map */

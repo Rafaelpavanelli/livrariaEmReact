@@ -1,0 +1,86 @@
+@import '../../styles/dados.scss';
+.Livro-Info{
+@include Container;
+.container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 10vw;
+    .container-left{
+      @include Container-Left;
+     h1{
+      font-family: $titulos;
+      text-align: center;
+      width: 20vw;
+     }
+
+    }
+    .container-right{
+      @include Container-Right;
+      justify-content: center;
+      .livros{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 40vw;
+        padding-top: 5vh;
+        span{
+          margin-bottom: 2vw;
+          color: black;
+          h3{
+            background-color: white;
+            color: black;
+            padding-left: 1vw;
+            padding-top: 5px;
+            height: 5vh;
+            margin: auto;
+          }
+          &:nth-child(1){
+            width: 20vw;
+          }
+          &:nth-child(2){
+            width: 14vw;
+          }
+          &:nth-child(3){
+            width: 14vw;
+            margin-right: 10vw;
+          }
+          &:nth-child(4){
+            width: 14vw;
+          }
+          &:nth-child(5){
+            width: 14vw;
+            margin-right: 25vw;
+            margin-bottom: 10vh;
+          }
+         
+        }
+      }
+      button{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        margin-bottom: 5vh;
+        align-items: center;
+        border-radius: 10px;
+        background-color: transparent;
+        color: black;
+        border:none;
+        cursor: pointer;
+        svg{
+          color: white;
+          background-color: #00DA16;
+          height: 5vh;
+          width: 5vh;
+          padding: 2vh;
+          border-radius: 100px;
+          &:hover{
+            transition: 0.4s ease-in-out;
+            background-color: rgb(0, 255, 128);
+          }
+        }
+      }
+    }
+}
+}

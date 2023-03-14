@@ -6,6 +6,8 @@ import CadastrarEditora from './views/CadastrarEditora';
 import CadastrarLivro from "./views/CadastrarLivro";
 import MostrarLivros from "./views/MostrarLivros";
 import LivroDescricao from "./views/LivroInfo";
+import NotFound from "./views/notFound";
+import Menu from "./views/Menu";
 
 const route=()=>{
   return(
@@ -19,6 +21,8 @@ const route=()=>{
     <Route path='/CadastrarLivro' element={<CadastrarLivro/>} />
     <Route path='/Livros' element={<MostrarLivros/>} />
     <Route path='/LivrosDescricao' element={<LivroDescricao/>} />
+    <Route path='/Menu' element={<Menu />} />
+    <Route path='*' element={<NotFound />} />
     
    </Routes>
    </BrowserRouter>
