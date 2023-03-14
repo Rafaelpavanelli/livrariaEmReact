@@ -11,6 +11,7 @@ const Login=()=>{
     if(verificarLogin(email,senha) === true){
       return console.log("Redirecionado");
     }
+    console.log("Função Redirecionar")
   }
 
   return(
