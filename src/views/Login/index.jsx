@@ -39,7 +39,7 @@ const Login=()=>{
               </span>
 
             </div>
-            <button onClick={()=>setTeste("Clicou")}>Login</button>
+            <button onClick={()=>console.log("Teste")}>Login</button>
             {teste!= ''?<p>{teste}</p>:""}
         
           </div>
