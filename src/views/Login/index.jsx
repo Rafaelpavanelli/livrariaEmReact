@@ -8,9 +8,9 @@ const Login=()=>{
   const[senha,setSenha]=useState("");
   const navigate=useNavigate();
   function Redirecionar(){
-    if(verificarLogin(email,senha) === true){
-      return console.log("Redirecionado");
-    }
+    // if(verificarLogin(email,senha) === true){
+    //   return console.log("Redirecionado");
+    // }
     console.log("Função Redirecionar")
   }
 
