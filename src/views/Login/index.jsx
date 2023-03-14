@@ -6,13 +6,11 @@ import verificarLogin from '../../modules/VerificarLogin';
 const Login=()=>{
   const[email,setEmail]=useState("");
   const[senha,setSenha]=useState("");
-  const[teste,setTeste]=useState("");
-  const navigate=useNavigate('');
+  const navigate=useNavigate();
   function Redirecionar(){
-    // if(verificarLogin(email,senha) === true){
-    //   return console.log("Redirecionado");
-    // }
-    setTeste("Rodou")
+    if(verificarLogin(email,senha) === true){
+      return navigate("/Livros");
+    }
   }
 
   return(
@@ -39,8 +37,7 @@ const Login=()=>{
               </span>
 
             </div>
-            <button onClick={()=>console.log("Teste")}>Login</button>
-            {teste!= ''?<p>{teste}</p>:""}
+            <button onClick={()=>Redirecionar()}>Login</button>
         
           </div>
         </div>
