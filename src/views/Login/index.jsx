@@ -39,7 +39,7 @@ const Login=()=>{
               </span>
 
             </div>
-            <button onClick={()=>verificarLogin(email,senha)}>Login</button>
+            <button onClick={()=>setTeste("Clicou")}>Login</button>
             {teste!= ''?<p>{teste}</p>:""}
         
           </div>
