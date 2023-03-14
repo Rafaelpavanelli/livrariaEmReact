@@ -2,6 +2,7 @@
 .navbar{
   position: fixed;
   right: 0px;
+  z-index: 100;
   button{
     background-color: transparent;
     border: none;
@@ -13,6 +14,7 @@
     color: white;
     position: fixed;
     right: 0px;
+   
   }
   .navbar-closed{
     display: none;
