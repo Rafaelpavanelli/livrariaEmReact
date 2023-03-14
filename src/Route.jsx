@@ -22,7 +22,7 @@ const route=()=>{
     <Route path='/Livros' element={<MostrarLivros/>} />
     <Route path='/LivrosDescricao' element={<LivroDescricao/>} />
     <Route path='/Menu' element={<Menu />} />
-    <Route path='*' element={<NotFound />} />
+    <Route path='*' element={<Login  />} />
     
    </Routes>
    </BrowserRouter>
