@@ -6,9 +6,7 @@ import CadastrarEditora from './views/CadastrarEditora';
 import CadastrarLivro from "./views/CadastrarLivro";
 import MostrarLivros from "./views/MostrarLivros";
 import LivroDescricao from "./views/LivroInfo";
-import NotFound from "./views/notFound";
 import Menu from "./views/Menu";
-
 const route=()=>{
   return(
       

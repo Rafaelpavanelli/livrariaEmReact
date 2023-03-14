@@ -9,7 +9,7 @@ const Login=()=>{
   const navigate=useNavigate();
   function Redirecionar(){
     if(verificarLogin(email,senha) === true){
-      return navigate("/Livros");
+      return navigate("/Menu");
     }
   }
 
