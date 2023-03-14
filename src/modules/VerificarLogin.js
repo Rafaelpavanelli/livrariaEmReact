@@ -3,7 +3,7 @@ const verificarLogin=(email,senha)=>{
   const user=User.Users.filter(e=>e.Email===email)
   if(user!== ''){
     if(senha === user[0].Senha){
-      return true;
+      return console.log("Redirecionado")
     }else{
     return console.log("Senha Invalida")
     }

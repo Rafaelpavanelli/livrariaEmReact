@@ -39,7 +39,7 @@ const Login=()=>{
               </span>
 
             </div>
-            <button onClick={()=>Redirecionar()}>Login</button>
+            <button onClick={()=>verificarLogin(email,senha)}>Login</button>
             {teste!= ''?<p>{teste}</p>:""}
         
           </div>
