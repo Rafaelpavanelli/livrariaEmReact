@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar";
 import Data from '../../data.json';
 import {BsCartCheckFill,BsInfoCircleFill} from 'react-icons/bs';
 import {BiSearchAlt} from 'react-icons/bi';
-import { NavLink,Navigate} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 const MostrarLivros=()=>{
   const Livros=Data.Livros;
   
