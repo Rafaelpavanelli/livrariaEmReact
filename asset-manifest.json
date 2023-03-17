@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/livrariaEmReact/static/css/main.71da6d90.css",
-    "main.js": "/livrariaEmReact/static/js/main.0cb47b5a.js",
+    "main.js": "/livrariaEmReact/static/js/main.fbd58070.js",
     "index.html": "/livrariaEmReact/index.html",
     "main.71da6d90.css.map": "/livrariaEmReact/static/css/main.71da6d90.css.map",
-    "main.0cb47b5a.js.map": "/livrariaEmReact/static/js/main.0cb47b5a.js.map"
+    "main.fbd58070.js.map": "/livrariaEmReact/static/js/main.fbd58070.js.map"
   },
   "entrypoints": [
     "static/css/main.71da6d90.css",
-    "static/js/main.0cb47b5a.js"
+    "static/js/main.fbd58070.js"
   ]
 }
